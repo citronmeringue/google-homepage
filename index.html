@@ -9,41 +9,58 @@
 
     <body>
         <div id="container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><button type="button" id="signIn">Sign In</button></li>
+                </ul>
+            </nav>
 
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><button type="button" id="signIn">Sign In</button></li>
-            </ul>
-        </nav>
 
+            <main class="main-container">
 
-        <main class="main-container">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logoGoogle"/>
 
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logoGoogle"/>
+                <div class="search">
+                <label for="googleSearch">
+                    <input type="search" id="googleSearch" name="search"/>
+                    <i class="fa fa-search"> </i>
+                </label>
+                </div>
+                
+                <div class="button-block">
+                    <button type="button" >Google Search</button>
+                    <button type="button" >I feel lucky</button>
+                </div>
+                
+                <div class="search">
+                    <p>Google offered in : <a href="http://www.google.fr" style="color :blue;">French</a></p>
+                </div>
+                
+                <div id="footer-container">
+                    <p>France</p>
+                    
+                    <div id="sub-footer">
+                            <ul>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">How Search Works</a></li>
+                            </ul>
+                    
+                            <ul>
+                                <li><a href="#">Consumer Information</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Settings</a></li>
+                            </ul>
+                    </div>
+                </div>
 
-            <div class="search">
-            <label for="googleSearch">
-                <input type="search" id="googleSearch" name="search"/>
-                <i class="fa fa-search"> </i>
-            </label>
-            </div>
-            
-            <div class="button-block">
-            <button type="button" >Google Search</button>
-            <button type="button" >I feel lucky</button>
-            </div>
-
-            <div id="footer">
-                <p>France</p>
-            </div>
-
-        </main>
-
+             </main>
 
         </div>
-        
     </body>
 
 </html>

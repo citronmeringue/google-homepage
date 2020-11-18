@@ -1,5 +1,6 @@
 html, body{
     font-family: Arial, Helvetica, sans-serif;   
+    font-size: 16px;
     height: 100%; 
     margin : 0;
     padding : 0;
@@ -17,10 +18,8 @@ html, body{
     justify-content: center;
     height : 90vh;
 }
-
-.main-container #footer{
+#footer-container{
     background-color: whitesmoke;
-    border-style: hidden;
     width : 100%;
     bottom: 0;
     position : absolute;
@@ -45,8 +44,6 @@ a:hover{
     text-decoration: underline;
     color : gray;
 }
-
-
 img{
     width:15%;
     padding-bottom: 30px;
@@ -67,6 +64,7 @@ img{
     padding-top: 20px;
     display : inline-block;  
 }
+
 button{
     width: 20em;
     margin : 10px;
@@ -75,17 +73,21 @@ button{
     background-color: whitesmoke;
 }
 button:hover{
-    border-style: solid;
+    border-style: double;
 }
 
 #signIn{
    width: 7em;
    background-color: cornflowerblue; 
+   font-weight: bold;
    color : white;
 }
 
-
-p{
-    font-size: 18px;
-    margin-left : 30px;
+#footer-container p{
+     margin-left : 55px;
+}
+#sub-footer{
+    display :flex;
+    justify-content: space-between;
+    margin-right: 20px;
 }
